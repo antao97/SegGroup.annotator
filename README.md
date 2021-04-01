@@ -8,19 +8,7 @@ This repository contains the Seg-Level Label Annotator for the paper **SegGroup:
 
 We design a WebGL annotation tool in the browser to annotate seg-level labels. The tool is developed with [React](http://reactjs.org) and [three.js](https://threejs.org/).
 
-**Video:**
-<center>
-<iframe 
-    width="420" 
-    height="235" 
-    src="https://www.youtube.com/embed/HPVbzQTURus" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-</iframe></center>
-
-Can't visit YouTube? Use [Bilibili](https://www.bilibili.com/video/BV1Av411h7BA/).
+**Video:** [[YouTube]](https://www.youtube.com/watch?v=HPVbzQTURus) [[Bilibili]](https://www.bilibili.com/video/BV1Av411h7BA/)
 
 
 If you find our work useful in your research, please consider citing:
