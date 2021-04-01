@@ -39,7 +39,7 @@ Enter `annotator/` to annotate labels from scratch or `annotator_with_gt/` to an
 cd annotator/
 ```
 
-### Download ScanNet dataset
+### Download the ScanNet dataset
 
 Our annotation tool uses .PLY scans from ScanNet. Please follow the [instructions](https://github.com/ScanNet/ScanNet#scannet-data) to download.
 
@@ -77,7 +77,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The interface includes a scene display window on the left and a control panel on the right. The annotator can rotate and pan the scene to browse and annotate seg-level labels by mouse clicking. 
 
 ### Annotation from Scratch
-In this annotation interface, the scene is displayed with original scanned colors at the beginning. 
+In this annotation mode, the scene is displayed with original scanned colors at the beginning. 
 
 The annotator needs to choose a semantic class before annotating the location of each instance. If the next instance to annotate shares the same semantic class with the last annotated instance, the annotator only needs to click on "Add" in the control panel to use the last chosen semantic class. 
 
@@ -90,16 +90,18 @@ Because scenes in the ScanNet dataset have ground-truth point-level labels, in o
 
 Compared with annotating from scratch, in this annotation mode the annotator does not need to annotate the semantic class of each instance location. 
 
-In the scene display window, different colors indicate different instances, and the white color indicates instances are labeled. The scene is displayed with non-white colors at the beginning of the annotation process. The annotator needs to annotate on every instance to make the scene become white in all areas. 
+In the scene display window, different colors indicate different instances, and the white color indicates instances are labeled. The scene is displayed with non-white colors at the beginning of the annotation process. 
 
-The segment corresponding to the mouse cursor is also displayed in red, and the status of the mouse cursor is also shown at the bottom of the interface. 
+The annotator needs to annotate on every instance to make the scene become white in all areas. 
+
+The segment corresponding to the mouse cursor is also displayed in red. 
 
 When an instance location is annotated by mouse clicking, the color of the segment that corresponds to the instance location changes from red to black. At the same time, the color of the instance last labeled turns white to indicate this instance is already labeled. 
 
 ### After Annotation
 The annotation results include location annotations and seg-level labels. 
 
-In the display window, the positions of red balls indicate the location annotations of instances. For seg-level labels, different colors indicate they belong to different instances. The white areas of the scene are unlabeled. 
+For seg-level labels, different colors indicate they belong to different instances. The white areas of the scene are unlabeled. The positions of red balls indicate the location annotations of instances. 
 
 &nbsp;
 ## Control
@@ -120,7 +122,7 @@ H: Reset camera
 
 Q: Show original scanned mesh
 
-### Annotation
+### During annotation
 
 Shift + Left Mouse Button: Add annotation
 
