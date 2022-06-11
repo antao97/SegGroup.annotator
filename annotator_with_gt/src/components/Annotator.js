@@ -795,7 +795,7 @@ class Annotator extends Component {
             </div>
             <div>
               <a
-                href="https://www.antao.site"
+                href="https://antao97.github.io"
                 target="_blank"
                 rel="noopener noreferrer"
               >
