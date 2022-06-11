@@ -4,7 +4,7 @@
     <img src="image/annotator.png" width="800"/>
 </p>
 
-This repository contains the Seg-Level Label Annotator for the paper **SegGroup: Seg-Level Supervision for 3D Instance and Semantic Segmentation** [[arXiv]](https://arxiv.org/abs/2012.10217) [[Code]](https://github.com/AnTao97/SegGroup)
+This repository contains the Seg-Level Label Annotator for the paper **SegGroup: Seg-Level Supervision for 3D Instance and Semantic Segmentation** [[arXiv]](https://arxiv.org/abs/2012.10217) [[Code]](https://github.com/antao97/SegGroup)
 
 We design a WebGL annotation tool in the browser to annotate seg-level labels. The tool is developed with [React](http://reactjs.org) and [three.js](https://threejs.org/).
 
@@ -135,5 +135,5 @@ E: Show location annotations
 W: Exchange between annotations and ground-truth labels (only valid with ground-truth labels)
 
 &nbsp;
-## Reference repos:  
+## Reference repos:
 - [point-cloud-annotator](https://github.com/zexihan/point-cloud-annotator)  
