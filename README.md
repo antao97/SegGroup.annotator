@@ -8,7 +8,7 @@
 
 This repository contains the Seg-Level Label Annotator for the paper **SegGroup: Seg-Level Supervision for 3D Instance and Semantic Segmentation** 
 
-[[arXiv]](https://arxiv.org/abs/2012.10217) [[Zhihu]](https://zhuanlan.zhihu.com/p/536482202) [[Code]](https://github.com/antao97/SegGroup)
+[[arXiv]](https://arxiv.org/abs/2012.10217) [[Code]](https://github.com/antao97/SegGroup) [[Zhihu]](https://zhuanlan.zhihu.com/p/536482202) 
 
 We design a WebGL annotation tool in the browser to annotate seg-level labels. The tool is developed with [React](http://reactjs.org) and [three.js](https://threejs.org/).
 

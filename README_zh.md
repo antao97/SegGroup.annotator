@@ -8,7 +8,7 @@
 
 本代码库包含了文章**SegGroup: Seg-Level Supervision for 3D Instance and Semantic Segmentation**的标注工具。
 
-[[arXiv]](https://arxiv.org/abs/2012.10217) [[知乎专栏]](https://zhuanlan.zhihu.com/p/536482202) [[代码]](https://github.com/antao97/SegGroup)
+[[arXiv]](https://arxiv.org/abs/2012.10217) [[代码]](https://github.com/antao97/SegGroup) [[知乎专栏]](https://zhuanlan.zhihu.com/p/536482202)
 
 我们设计了一个基于WebGL的网页端标注工具，使用[React](http://reactjs.org)和[three.js](https://threejs.org/)开发。
 
