@@ -8,7 +8,7 @@
 
 本代码库包含了文章**SegGroup: Seg-Level Supervision for 3D Instance and Semantic Segmentation**的标注工具。
 
-[[arXiv]](https://arxiv.org/abs/2012.10217) [[Code]](https://github.com/antao97/SegGroup)
+[[arXiv]](https://arxiv.org/abs/2012.10217) [[知乎专栏]](https://zhuanlan.zhihu.com/p/536482202) [[代码]](https://github.com/antao97/SegGroup)
 
 我们设计了一个基于WebGL的网页端标注工具，使用[React](http://reactjs.org)和[three.js](https://threejs.org/)开发。
 
@@ -17,15 +17,19 @@
 
 如果您发现我们的工作对您的研究有帮助，您可以考虑引用我们的论文。
 ```
-@article{tao2020seggroup,
+@article{tao2022seggroup,
   title={{SegGroup}: Seg-Level Supervision for {3D} Instance and Semantic Segmentation},
   author={Tao, An and Duan, Yueqi and Wei, Yi and Lu, Jiwen and Zhou, Jie},
-  journal={arXiv preprint},
-  year={2020}
-}
+  journal={IEEE Transactions on Image Processing},
+  year={2022},
+  publisher={IEEE}
 ```
 
 在[这里](https://github.com/antao97/SegGroup/tree/main/seggroup/dataset/scannet/manual_label.zip)我们提供了手工标注的结果。
+
+**更新：** 
+
+- [2022/07/01] 这份工作被IEEE Transactions on Image Processing接收了！
 
 &nbsp;
 

@@ -8,7 +8,7 @@
 
 This repository contains the Seg-Level Label Annotator for the paper **SegGroup: Seg-Level Supervision for 3D Instance and Semantic Segmentation** 
 
-[[arXiv]](https://arxiv.org/abs/2012.10217) [[Code]](https://github.com/antao97/SegGroup)
+[[arXiv]](https://arxiv.org/abs/2012.10217) [[Zhihu]](https://zhuanlan.zhihu.com/p/536482202) [[Code]](https://github.com/antao97/SegGroup)
 
 We design a WebGL annotation tool in the browser to annotate seg-level labels. The tool is developed with [React](http://reactjs.org) and [three.js](https://threejs.org/).
 
@@ -17,15 +17,19 @@ We design a WebGL annotation tool in the browser to annotate seg-level labels. T
 
 If you find our work useful in your research, please consider citing:
 ```
-@article{tao2020seggroup,
+@article{tao2022seggroup,
   title={{SegGroup}: Seg-Level Supervision for {3D} Instance and Semantic Segmentation},
   author={Tao, An and Duan, Yueqi and Wei, Yi and Lu, Jiwen and Zhou, Jie},
-  journal={arXiv preprint},
-  year={2020}
-}
+  journal={IEEE Transactions on Image Processing},
+  year={2022},
+  publisher={IEEE}
 ```
 
 In [here](https://github.com/antao97/SegGroup/tree/main/seggroup/dataset/scannet/manual_label.zip) we provide our manual annotation results.
+
+**Updates:** 
+
+- [2022/07/01] This work is accepted by IEEE Transactions on Image Processing!
 
 &nbsp;
 
